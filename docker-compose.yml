@@ -1,0 +1,5 @@
+source:
+  build: .
+  command: /bin/bash -c "while true; do sleep 1; done"
+  volumes:
+    - .:/usr/src/app
